@@ -2,20 +2,19 @@
 <html>
     <head>
         <title>A little crypto survey!</title>
+        <link rel="stylesheet" href="layout.css">
     </head>
     <body>
         <div class="header">
-            <h1>Enjoy our Crypto-Survey!</h1>
-            <hr>
-                <div class="nav-bar">
-                    <ul>
-                        <li><a href="#">About Cryptos</a></li>
-                        <li><a href="#">Survey</a></li>
-                        <li><a href="#">Top Crypto Sites</a></li>
-                        <li><a href="#">Top Crypto Logos</a></li>
-                    </ul>
-                </div>
-            <hr>
+            <h1 id="page_title">Enjoy our Crypto-Survey!</h1>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="#">About Cryptos</a></li>
+                    <li><a href="#">Survey</a></li>
+                    <li><a href="#">Top Crypto Sites</a></li>
+                    <li><a href="#">Top Crypto Logos</a></li>
+                </ul>
+            </div>
         </div>
 
         <div class="content">
@@ -34,15 +33,15 @@
 
                         <p>If you have $1.000 to invest on one of these cryptos, which one would you choose?</p>
                         <div class="crypto-selection">
-                            <input type="radio" id="btc" name="btc" value="Bitcoin">
+                            <input type="checkbox" id="btc" name="btc" value="Bitcoin">
                             <label for="btc">Bitcoin</label>
                         </div>
-                        <div>
-                            <input type="radio" id="eth" name="eth" value="Ethereum">
+                        <div class="crypto-selection">
+                            <input type="checkbox" id="eth" name="eth" value="Ethereum">
                             <label for="eth">Ethereum</label>
                         </div>
-                        <div>
-                            <input type="radio" id="bnb" name="bnb" value="Binance Coin">
+                        <div class="crypto-selection">
+                            <input type="checkbox" id="bnb" name="bnb" value="Binance Coin">
                             <label for="bnb">Binance coin</label>
                         </div>
 
@@ -61,7 +60,6 @@
         </div>
 
         <div class="footer">
-            <hr>
             <h3>By Ignacio Patri. 2022.</h3>
         </div>
     </body>
