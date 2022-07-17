@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A little crypto survey!</title>
+        <link rel="stylesheet" href="layout.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 id="page_title">Enjoy our Crypto-Survey!</h1>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="first-page.html" target="to_blank">About Cryptos</a></li>
+                    <li><a href="second-page.html" target="to_blank">Survey</a></li>
+                    <li><a href="third-page.html" target="to_blank">Top Crypto Sites</a></li>
+                    <li><a href="fourth-page.html" target="to_blank">Top Crypto Logos</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <form method="post">
+                    <fieldset>
+                    <legend>Crypto-Survey</legend>
+                        <div class="names">
+                            <label for="firstname">First Name:</label><br>
+                            <input type="text" id="firstname" name="first_name">
+                        </div>
+                        <div class="names">
+                            <label for="lastname">Last Name:</label><br>
+                            <input type="text" id="lastname" name="last_name">
+                        </div>
+
+                        <p>If you have $1.000 to invest on one of these cryptos, which one would you choose?</p>
+                        <div class="crypto-selection">
+                            <input type="checkbox" id="btc" name="btc" value="Bitcoin">
+                            <label for="btc">Bitcoin</label>
+                        </div>
+                        <div class="crypto-selection">
+                            <input type="checkbox" id="eth" name="eth" value="Ethereum">
+                            <label for="eth">Ethereum</label>
+                        </div>
+                        <div class="crypto-selection">
+                            <input type="checkbox" id="bnb" name="bnb" value="Binance Coin">
+                            <label for="bnb">Binance coin</label>
+                        </div>
+
+                        <div class="why-selection">
+                            <br>
+                            <label id="comment" for="comments">Tell us, why did you choose that?</label><br>
+                            <textarea id="comments" name="comments" rows="5" cols="35"></textarea>
+                        </div>
+
+                        <div class="submit-survey">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>By Ignacio Patri. 2022.</h3>
+        </div>
+    </body>
+</html>
